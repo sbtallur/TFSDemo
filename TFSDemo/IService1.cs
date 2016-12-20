@@ -28,7 +28,7 @@ namespace TFSDemo
     public class CompositeType
     {
         bool boolValue = true;
-        string stringValue = "Hello ";
+        string stringValue = "Hello TFSDemo";
 
         [DataMember]
         public bool BoolValue
