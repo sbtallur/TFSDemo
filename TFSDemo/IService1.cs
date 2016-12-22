@@ -12,7 +12,7 @@ namespace TFSDemo
     [ServiceContract]
     public interface IService1
     {
-
+        //Changes for Git test
         [OperationContract]
         string GetData(int value);
 
