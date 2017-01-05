@@ -14,7 +14,7 @@ namespace TFSDemo
     {        
         [OperationContract]
         string GetData(int value);
-
+        //test
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
