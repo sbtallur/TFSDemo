@@ -9,12 +9,12 @@ using System.Text;
 namespace TFSDemo
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IService1" in both code and config file together.
+    //Test commit Feature2
     [ServiceContract]
     public interface IService1
     {        
         [OperationContract]
         string GetData(int value);
-        //test feature1
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
